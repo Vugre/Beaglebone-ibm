@@ -285,7 +285,7 @@ SensorTag.discover(function(sensorTag) {
 					console.log('MQTT Connected');
 					console.log("Sending data")
 					if (qs_mode) {
-						console.log('MAC address/deviceID = ' + deviceId + 'MAC address/systemID = ' + systemId);
+						console.log('MAC address/deviceID = ' + deviceId);
 						console.log('Go to the following link to see your device data;');
 						console.log('http://quickstart.internetofthings.ibmcloud.com/#/device/' + deviceId + '/sensor/')
 					}
