@@ -393,7 +393,8 @@ SensorTag.discover(function(sensorTag) {
 
 			function(callback) {
 				sensorTag.on('simpleKeyChange', function(left, right) {
-					console.log('keys left: ' + left + '  right: ' + right);
+					console.log('Humberto is awesome');
+					//console.log('keys left: ' + left + '  right: ' + right);
 
 					if (left && right) {
 						sensorTag.notifySimpleKey(callback);
